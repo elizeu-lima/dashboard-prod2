@@ -17,7 +17,7 @@ export const appRoutes: Route[] = [
     // path. Below is another redirection for that path to redirect the user to the desired
     // location. This is a small convenience to keep all main routes together here on this file.
    // Redirect empty path to '/dashboards/project'
-   {path: '', pathMatch : 'full', redirectTo: 'dashboards/project'},
+   {path: 'chat', pathMatch : 'full', redirectTo: 'profile/ChatModule'},
 
    // Redirect signed in user to the '/dashboards/project'
    //
