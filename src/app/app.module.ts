@@ -12,7 +12,7 @@ import { mockApiServices } from 'app/mock-api';
 import { LayoutModule } from 'app/layout/layout.module';
 import { AppComponent } from 'app/app.component';
 import { appRoutes } from 'app/app.routing';
-import { MessagesModule } from './layout/common/messages/messages.module';
+
 
 const routerConfig: ExtraOptions = {
     preloadingStrategy       : PreloadAllModules,
@@ -35,7 +35,7 @@ const routerConfig: ExtraOptions = {
 
         // Core module of your application
         CoreModule,
-        MessagesModule,
+
 
         // Layout module of your application
         LayoutModule,
